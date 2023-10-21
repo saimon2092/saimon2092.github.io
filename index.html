@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio hoja de vida simon</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#inicio"><img src="imag/saimon encabezado.png" width="150" alt="letra de saimon"></a>
+            </div>
+            <nav id="nav" class="responsive">
+                <ul>
+                    <li> <a href="#INICIO" onclick="seleccionar()">INICIO</a></li>
+                    <li> <a href="#sobremi" onclick="seleccionar()">ACERCA DE MI</a></li>
+                    <li> <a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li> <a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li> <a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <div class="contenedor-header"></div>
+    <section id="INICIO" class="INICIO">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="imag/yo.jpg" alt=""
+                    style="width: 290px;height: 285px;border-radius: 50%;padding: 0%;margin:2%;top: auto;">
+            </div>
+            <h1>SIMON BOTERO</h1>
+            <h2>Tecnico en Contabilidad y Finanzas</h2>
+            <h2>Estudiante de Sistemas</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/saimon.andres.3"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=%2B573168026974&text&type=phone_number&app_absent=0"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/simonandresbotero/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/simon-andres-8b2849280/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+    </section>
+    <section id="sobremi" class="sobremi">
+        <div class="coontenido-section">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Simón Botero.
+                    Soy una persona apasionada por todo lo relacionado con sistemas, software y programación.</span></p>
+            <p><span> Trabajo en la empresa Nacional de chocolates haciendo los chocolates más ricos de Colombia y con
+                    ellos
+                    puedo sostener mis estudios y mi sueño que es ser un programador y un buen diseñador de software.
+                    Mi pasión más grande es aprender; por eso, desarrollo una curiosidad inmensa para así obtener
+                    conocimientos
+                    y poder desarrollar mis objetivos en cortos plazos.</span></p>
+            <div class="fila">
+
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>cumpleaños</strong>
+                            26-10-1996
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            3168026974
+                        </li>
+
+                        <li>
+                            <strong>Email</strong>
+                            saimonmusic2092@gmail.com
+                        </li>
+                        <li>
+                            <strong>Pagina Web</strong>
+                            <a href="https://saimon2092.github.io">https://saimon2092.github.io</a>
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            La ceja,antioquia-Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            Operario
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-brands fa-windows"></i>
+                            <span>SOFTWARE</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-film"></i>
+                            <center><span>PELICULAS Y SERIES</span></center>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>MOTOS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>DESCARGAR HOJA DE VIDA <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-section">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Html-Css</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>OFFICE</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>78%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Habilidades Profesionnales</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>68%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatiividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>88%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-section">
+            <h2>CURRICULUM</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Bachiller</h4>
+                        <span class="casa">IGNACIO BOTERO-El Retiro</span>
+                        <span class="fecha">2012</span>
+                        <p>Media tecnica en Sistemas </p>
+                        <div class="conectori">
+                            <div class="circuloi">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Contabilidad y Finanzas</h4>
+                        <span class="casa">ASDI-Rionegro</span>
+                        <span class="fecha">2017-2022</span>
+                        <p>Egresado con tecnica </p>
+                        <div class="conectori">
+                            <div class="circuloi">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Sistemas</h4>
+                        <span class="casa">Cetasdi-Rionegro</span>
+                        <span class="fecha">2023</span>
+                        <p>En Curso </p>
+                        <div class="conectori">
+                            <div class="circuloi">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Operario Agricola</h4>
+                        <span class="casa">El capiro S.A</span>
+                        <span class="fecha">2018-2019</span>
+                        <p>Corte de flor en campo y empaque en sala</p>
+                        <div class="conectord">
+                            <div class="circulod">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Manejo de Inventarios</h4>
+                        <span class="casa">Flores El Trigal</span>
+                        <span class="fecha">2019-2020</span>
+                        <p>Manejo y gestion de inventrios en Bodega </p>
+                        <div class="conectord">
+                            <div class="circulod">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Despachos,Facturacion y saldos</h4>
+                        <span class="casa">C.I. Flores de la Vega</span>
+                        <span class="fecha">2020-2023</span>
+                        <p>Despachos y gestion de aerolineas,facturacion a terceros. </p>
+                        <div class="conectord">
+                            <div class="circulod">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Operario De Maquinaria</h4>
+                        <span class="casa">Nacional de chocolates</span>
+                        <span class="fecha">2023</span>
+                        <p>Producto"burbujas de chocolate y arequipe" </p>
+                        <div class="conectord">
+                            <div class="circulod">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="imag/p1.png" width="300%" alt="">
+                    <div class="overplay">
+                        <h3>Diseño de Pagina web</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <img src="imag/saimon.jpg.png" width="94%" height="400px" alt="">
+                <div class="overplay">
+                    <h3>Aprendizaje de Phyton y c++</h3>
+                    <p>Footografia</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="saimon">
+                    <input type="text" placeholder="3168026974">
+                    <input type="text" placeholder="saimonmusic2092@gmail.com">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <button>ENVIAR MENSAJE<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overplay">
+                        </span>
+                    </button>
+                </div>
+                <div class="col">
+                    <img src="imag/ubicacion.png" width="80%" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Colombia.Antioquia-La Ceja
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile"></i>
+                                Llamame:3168026974
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email:saimonmusic2092@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#INICIO" class="arriba">
+            <i class="fa-solid fa-up-long"></i>
+        </a>
+        <div class="redes">
+            <a href="#facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
